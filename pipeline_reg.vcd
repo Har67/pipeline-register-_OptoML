@@ -1,0 +1,113 @@
+$date
+	Fri Feb  6 00:01:25 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_pipeline_reg $end
+$var wire 1 ! out_valid $end
+$var wire 32 " out_data [31:0] $end
+$var wire 1 # in_ready $end
+$var reg 1 $ clk $end
+$var reg 32 % in_data [31:0] $end
+$var reg 1 & in_valid $end
+$var reg 1 ' out_ready $end
+$var reg 1 ( rst_n $end
+$scope module dut $end
+$var wire 1 $ clk $end
+$var wire 32 ) in_data [31:0] $end
+$var wire 1 # in_ready $end
+$var wire 1 & in_valid $end
+$var wire 32 * out_data [31:0] $end
+$var wire 1 ' out_ready $end
+$var wire 1 ! out_valid $end
+$var wire 1 ( rst_n $end
+$var reg 32 + data_reg [31:0] $end
+$var reg 1 , valid_reg $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0,
+b0 +
+b0 *
+b0 )
+0(
+0'
+0&
+b0 %
+0$
+1#
+b0 "
+0!
+$end
+#5
+1$
+#10
+0$
+#15
+1$
+#20
+0$
+1(
+#25
+1!
+1,
+b10101010101010100101010101010101 "
+b10101010101010100101010101010101 *
+b10101010101010100101010101010101 +
+1'
+b10101010101010100101010101010101 %
+b10101010101010100101010101010101 )
+1&
+1$
+#30
+0$
+#35
+0!
+0,
+0&
+1$
+#40
+0$
+#45
+0#
+1!
+1,
+b10010001101000101011001111000 "
+b10010001101000101011001111000 *
+b10010001101000101011001111000 +
+0'
+b10010001101000101011001111000 %
+b10010001101000101011001111000 )
+1&
+1$
+#50
+0$
+#55
+1$
+#60
+0$
+#65
+1$
+#70
+0$
+#75
+0!
+0,
+1#
+0&
+1'
+1$
+#80
+0$
+#85
+1$
+#90
+0$
+#95
+1$
